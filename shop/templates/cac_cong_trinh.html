@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block menu %}
+<ol>
+  <li><a href="/">Trang Chủ</a></li>
+  <li>Các công trình</li>
+</ol>
+{% endblock %}
+
+{% block content %}
+<div id="primary" class="content-area primary">
+  <main id="main" class="site-main">
+    <article class="post-145 page type-page status-publish ast-article-single" id="post-145" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+        <div class="entry-content clear" itemprop="text">
+          <p style="text-align: justify;">Xin kính chào quý khách hàng,</p>
+          <p style="text-align: justify;">Công ty TNHH Xây dựng TMDV Khải Nhân chúng tôi là đơn vị chuyên cung cấp các loại bạt che nắng mưa chuyên dụng. Công ty chúng tôi có kinh nghiệm triển khai nhiều loại công trình khác nhau trên nhiều tỉnh thành.</p>
+          <p>Sau đây là 1 số công trình tiêu biểu mà chúng tôi đã thi công trong giai đoạn vừa qua:</p>
+          <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb_70">
+                        <h2>Các Công trình tiêu biểu</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row popular_destinations">
+                <div class="col-lg-6 col-md-6">
+                    <div class="single_destination" onclick="window.location.href = 'cong_trinh_que_toi'">
+                        <div class="thumb">
+                            <img src="{% static 'assets/img/cong_trinh/que_toi.jpg' %}" alt="" width="350" height="250">
+                        </div>
+                        <div class="content">
+                            <a href="cong_trinh_que_toi">Công trình Nhà hàng Quê Tôi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="single_destination" onclick="window.location.href = 'cong_trinh_quan_ca_phe'">
+                        <div class="thumb">
+                            <img src="{% static 'assets/img/cong_trinh/ca_phe.jpg' %}" alt="" width="350" height="250">
+                        </div>
+                        <div class="content">
+                            <a href="cong_trinh_quan_ca_phe">Công trình các quán cà phê</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="single_destination" onclick="window.location.href = 'cong_trinh_nha_pho'">
+                        <div class="thumb">
+                            <img src="{% static 'assets/img/cong_trinh/nha_pho.jpeg' %}" alt="" width="350" height="250">
+                        </div>
+                        <div class="content">
+                            <a href="cong_trinh_nha_pho">Công trình nhà phố</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="single_destination" onclick="window.location.href = 'cong_trinh_nha_xuong'">
+                      <div class="thumb">
+                          <img src="{% static 'assets/img/cong_trinh/nha_xuong.jpg' %}" alt="" width="350" height="250">
+                      </div>
+                      <div class="content">
+                          <a href="cong_trinh_nha_xuong">Công trình nhà xưởng</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div><!-- .entry-content .clear -->
+
+
+
+    </article>
+  </main>
+</div>
+{% endblock %}

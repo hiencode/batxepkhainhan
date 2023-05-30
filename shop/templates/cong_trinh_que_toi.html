@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block menu %}
+<ol>
+  <li><a href="home_page.html">Trang Chủ</a></li>
+  <li>Công Trình</li>
+</ol>
+{% endblock %}
+
+{% block content %}
+<div id="primary" class="content-area primary">
+  <main id="main" class="site-main">
+    <article class="post-145 page type-page status-publish ast-article-single" id="post-145" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+        <div class="entry-content clear" itemprop="text">
+          <h1>Nhà hàng Quê tôi</h1>
+          <p style="text-align: justify;">Nhà hàng Quê tôi tọa lạc tại số 129 Tân Sơn, phường 15, Tân Bình.</p>
+          <p><img decoding="async" loading="lazy" class="aligncenter" src="{% static 'assets/img/cong_trinh/que_toi.jpg' %}" alt="mái hiên di động" width="869" height="376"/></p>
+          <!--<p>Nhà hàng Quê Tôi</p>-->
+          <p style="text-align: justify;">Đây là điểm hẹn quen thuộc của anh em bạn bè vào những dịp cuối tuần, đặc biệt là các khách khu vực sân Golf Tân Sơn Nhất thường chọn địa điểm này để giải trí, thư giãn.</p>
+          <p style="text-align: justify;">Công ty Khải Nhân chúng tôi tự hào là đơn vị thi công toàn bộ diện tích mái xếp của nhà hàng với tổng diện tích hơn 2000m2. Công trình này ngoài việc tăng thêm diện tích sử dụng của nhà hàng,
+            còn góp phần làm tô đẹp thêm cảnh quan nơi nhà hàng, tạo sự thoải mái cho thực khách mà không bị ảnh hưởng bởi thời tiết</p>
+
+          <p>Sau đây là một số hình ảnh công trình Nhà hàng Quê tôi:</p>
+          <p><img decoding="async" loading="lazy" class="aligncenter" src="{% static 'assets/img/cong_trinh/que_toi_1.jpg' %}" alt="mái hiên di động" width="469" height="376"/>
+            <img decoding="async" loading="lazy" class="aligncenter" src="{% static 'assets/img/cong_trinh/que_toi_2.jpg' %}" alt="mái hiên di động" width="469" height="376"/>
+          </p>
+          <p><img decoding="async" loading="lazy" class="aligncenter" src="{% static 'assets/img/cong_trinh/que_toi_4.jpg' %}" alt="mái hiên di động" width="869" height="376"/></p>
+          <p><img decoding="async" loading="lazy" class="aligncenter" src="{% static 'assets/img/cong_trinh/que_toi_5.jpg' %}" alt="mái hiên di động" width="869" height="376"/></p>
+
+      </div><!-- .entry-content .clear -->
+
+
+
+    </article>
+  </main>
+</div>
+{% endblock %}
